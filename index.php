@@ -30,7 +30,7 @@ function clickweb_post_types(){
     		'query_var'          => true,
     		'rewrite'            => array( 'slug' => 'marketing' ),
     		'capability_type'    => 'post',
-    		'has_archive'        => false,
+    		'has_archive'        => true,
     		'hierarchical'       => false,
     		'menu_position'      => null,
     		'supports'           => array( 'title', 'editor', 'custom-fields', 'thumbnail' )
